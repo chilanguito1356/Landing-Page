@@ -3,15 +3,17 @@
     padding: 0;
 }
 
-.main{
+header {
     width: 100%;
-    background: 
-    url(./imagenes/fondo2.gif);
-  height: 120px;
+    background: rgb(88, 86, 86);
+
+    height: 120px;
+    
+
     background-size: cover;
     background-position: center;
-    background-size: cover;
-    height: 100vh;
+
+    
 }
 
 .navbar{
@@ -30,7 +32,7 @@
     color: #ff7200;
     font-size: 35px;
     font-family: Arial;
-    padding-left: 20px;
+    cursor: pointer;
     float: left;
     padding-top: 10px;
     margin-top: 5px
@@ -266,3 +268,5 @@ ul li a:hover{
 .icons ion-icon:hover{
     color: #ff7200;
 }
+
+
